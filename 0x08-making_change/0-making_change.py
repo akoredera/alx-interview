@@ -3,7 +3,6 @@
 makechange project
 '''
 
-
 def makeChange(coins, total):
     '''
     makeChange method'''
