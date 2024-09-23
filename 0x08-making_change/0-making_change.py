@@ -8,7 +8,7 @@ def makeChange(coins, total):
     makeChange method'''
     if total <= 0:
         return 0    
-     # sort the coins in descending order
+    # sort the coins in descending order
     coins.sort(reverse=True)
     change = 0
     for coin in coins:
